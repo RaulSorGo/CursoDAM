@@ -1,3 +1,4 @@
+
 from random import randrange
 objetivo = randrange(100)
 veces = 0
