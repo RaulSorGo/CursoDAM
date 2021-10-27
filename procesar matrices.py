@@ -19,12 +19,12 @@ for i in range(filas):
     for j in range(cols):
         linea+=matriz[i][j]
     print(linea)
-#deberes para mañna
-M=1,2,3
-  4,5,6
-  7,8,9
+#deberes para mañna, multiplicar matrices 3x3
+# M=1,2,3
+#   4,5,6
+#   7,8,9
 
-H=9,8,7
-  6,5,4
-  3,2,1
+# H=9,8,7
+#   6,5,4
+#   3,2,1
 
