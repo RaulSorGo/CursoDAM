@@ -3,4 +3,10 @@ def introduce():
 
     for i in range (5):
         nombre = input('Introduzca nombre:')
-        apellido
+        apellidos = input('Introduzca apellido:')
+        dni = input('Introduzca DNI:')
+        personas[dni] = {"nombre":nombre , "apellidos":apellidos}
+
+    return personas
+
+print(introduce())
