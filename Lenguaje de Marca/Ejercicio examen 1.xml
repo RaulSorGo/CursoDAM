@@ -1,0 +1,14 @@
+<?xml version="1.0"    encoding="UTF-8"      standalone="no"?>
+
+<pedido>
+    <destinatario nombre="Francisco Alcuza Ramirez"/>
+    <info_pedido>Bicicleta A2023</info_pedido>
+    <direccion>c/Barco 4 3 A Sevilla
+        <Cp>41002</Cp>
+    </direccion>
+    <fecha_entrega>19-5-2021</fecha_entrega>
+   
+</pedido>
+
+ <!-- Este codigo busca facilitar la busqueda de informacion mediante el desglose de la informacion 
+ relacionada con el destinatario. Pudiendo hallar esta informacion mediante diversas rutas de busqueda ( nombre, direccion, codigo postal...etc) -->

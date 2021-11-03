@@ -1,0 +1,10 @@
+<Arboles>
+    <NombreCientifico>
+        <NombreComun>Acer monspessulanum</NombreComun>
+        <TipoVegetacion>Caducifolio</TipoVegetacion>
+        <Altura>De 6 a 10 metros </Altura>
+        <Forma>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante </Forma>
+        <ColorPrimavera>Haz verde brillante, envés verde blanquecino </ColorPrimavera>
+        <ResistenciaHeladas>Heladas fuertes (hasta -15ºC) </ResistenciaHeladas>
+    </NombreCientifico>       
+</Arboles>

@@ -1,0 +1,7 @@
+A.Falso
+B.Verdadero
+C.Falso
+D.Verdadero
+E.Verdadero
+F.Falso
+

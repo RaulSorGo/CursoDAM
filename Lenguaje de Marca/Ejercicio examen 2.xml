@@ -1,0 +1,26 @@
+<?xml version="1.0"  encoding="UTF-8"   standalone="no"?>
+<!-- <?xml version="1.0"?>
+<documento>
+<p>Mi Primer <destacar importancia=1>documento
+XML</destacar></p]
+<p>Comienza con la etiqueta <documento&gt;</p>
+<p>A continuación colocamos un elemento sin contenido</p>
+<imagen fichero="imagen.gif">
+</documento> -->
+
+
+
+
+
+<documento>
+    <p destacar_importancia="1"> Mi primer documento XML </p>
+    <p>Comienza con etiqueta <!--<documento/>--> </p>
+    <p>A continuación colocamos un elemento sin contenido</p>
+    <imagen fichero="imagen.gif"/>
+
+</documento>
+<!--En el texto original podemos observar multiples errores tales como :
+Un corchete en la linea 5 cuando las etiquetas se cierran con paréntesis.
+El comentario de la linea 6 para incluir la palabra "Documento" está mal ejecutado.
+La etiqueta de la línea 8 está mal cerrada, ya que le falta el símbolo "/".
+El codigo que empieza en la línea 15 está corregido siguiendo mi propio criterio.-->

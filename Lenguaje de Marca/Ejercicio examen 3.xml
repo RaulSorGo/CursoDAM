@@ -1,0 +1,33 @@
+<?xml  version="1.0"  encoding="utf-8"  standalone="no" ?>
+
+<equipos>
+    <equipo nombre="Real Betis Balompié">
+            <Ciudad>Sevilla</Ciudad>
+            <Entrenador nombre="Manuel Pellegrini"/>
+                <Jugadores>
+                    <jugador nombre="Joaquín Sanchez"   posición="Centrocampista">
+                    <Nacionalidad>Española</Nacionalidad>
+                    </jugador>
+                    <jugador nombre="Sergio Canales"    posición="Delantero">
+                    <Nacionalidad>Española</Nacionalidad>
+                    </jugador>
+                </Jugadores>
+    </equipo>
+    <equipo nombre="Sevilla FC">
+            <Ciudad>Sevilla</Ciudad>
+            <Entrenador nombre="Julen Lopetegui"/>
+               <Jugadores>
+                    <jugador nombre="Yasine Bounou"   posición="portero">
+                    <Nacionalidad>Canadiense</Nacionalidad>
+                    </jugador> 
+                    <jugador nombre="Jesús Navas"   posición="Defensa">
+                    <Nacionalidad>Española</Nacionalidad>
+                    </jugador>       
+               </Jugadores>
+    </equipo>
+ </equipos>
+
+<!--Esta estructura facilita la busqueda de informacion sobre estos equipos ya que 
+permite basarse en los nombres tanto de los entrenadores como de los jugadores, 
+la nacionalidad de los mismos, o la posicion en la que juegan. Tambien permite buscar
+los nombres de los entrenadores.-->

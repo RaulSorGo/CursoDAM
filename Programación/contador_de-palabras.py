@@ -18,4 +18,3 @@ def cuenta_palabras(frase):
     return dic_palabras
 
 pprint(cuenta_palabras(frase))
-

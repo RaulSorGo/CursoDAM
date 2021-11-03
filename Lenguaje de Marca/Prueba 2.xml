@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding="utf-8" standalone='yes'?>
+<!DOCTYPE alumnos>
+     <alumnos>
+        <nombre> Juan Romero Sanchez</nombre>
+        <nombre> Teresa Cercas Torres</nombre>
+        <nombre>Yolanda Cordoba Luna</nombre>
+        <nombre/>
+     </alumnos>  
