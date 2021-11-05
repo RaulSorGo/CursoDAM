@@ -1,0 +1,8 @@
+Comparar_listas,Generador de equipos,Ejercicio_diccionario,matriz,bucle_cadena
+Adivina un número 2.0 ,Ejercicio_parking,ficheros_2,Funciones1,palindromo
+Ejercicio_fecha_nacimiento,Ejercicio Vectores,Ejercicio_funciones,condicionales,Ejercicio_funciones2
+Listas,operaciones_con_listas,diccionarios,Hola Mundo,multiplica_matrices
+Ejercicio_fichero,Comparar_listas_corregido,referencia_valor,Adivina un número,settings
+procesar matrices,Cortar_cadenas,contador_de-palabras,rutas,diccionarios2
+Ficheros_1,variables,Constantes_parking,genera_equipos2.0,pruebas
+tuplas
