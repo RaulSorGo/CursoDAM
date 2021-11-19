@@ -52,7 +52,7 @@ def clasifica_genero(persona):
 v,m = contar_vivos_muertos()
 print('vivo = {}'.format(v))
 print('muertos = {}'.format(m))
-
+print(clasifica_genero())
 
  
 
