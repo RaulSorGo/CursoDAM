@@ -1,0 +1,20 @@
+form {
+	width:75%;
+    background-color:tomato;
+}
+fieldset {
+    border:4px solid tomato;
+}
+
+label:focus-within {
+    background: #3f5771;
+    color: #fff;
+}
+
+fieldset:focus-within legend{
+    color:white;
+}
+
+p:hover span {
+    color:red;
+}

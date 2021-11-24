@@ -38,21 +38,21 @@ def contar_vivos_muertos():
             muerto += 1
     return vivo, muerto
 
-def clasifica_genero(persona):
-    hombres = []
-    mujeres = []
-    for genero in persona:
-        if persona['Sex'] == 'male':
-            hombres.append(persona['Sex']) 
-        elif persona['Sex'] == 'female':
-            mujeres.append(persona['Sex'])   
-
+  
+#def clasifica_genero(persona):
+ #   hombres = []
+  #  mujeres = []
+   # for genero in persona:
+    #    if persona['Sex'] == 'male':
+     #       hombres.append(persona['Sex']) 
+      #  elif persona['Sex'] == 'female':
+       #     mujeres.append(persona['Sex']) 
 # devolver resultado
 
 v,m = contar_vivos_muertos()
 print('vivo = {}'.format(v))
 print('muertos = {}'.format(m))
-print(clasifica_genero())
+#print(clasifica_genero())
 
  
 

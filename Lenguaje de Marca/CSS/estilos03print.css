@@ -1,0 +1,12 @@
+body {
+	width:50%;
+}
+p {
+	color: black;
+	letter-spacing: 12px;
+	text-align:center;
+}
+
+header, footer{
+  display: none;
+}

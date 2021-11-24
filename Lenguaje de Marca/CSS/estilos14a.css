@@ -1,0 +1,53 @@
+﻿.contenedor{   
+	position: absolute;
+	left: 700px;
+	top:20px;
+	padding:10px;
+}
+.texto {
+	position: absolute;
+	left: 20px;
+	top: 30px;	
+	color: #1dacc8;
+	font-weight:blond;
+	text-align:center;
+	font-size:6em;
+	display:none; /* visibility: hidden;*/
+}
+#imagensola {
+	position: absolute;
+	left: 20px;
+	top: 30px;	
+}
+
+.contenedor:hover .texto {
+	display:block;  /*visibility: visible;*/
+} 
+.contenedor2{   
+	position: absolute;
+	left: 200px;
+	top:20px;
+	padding:10px;
+	width: 200px;
+	height: 150px;
+	
+}
+
+#fotoarriba {
+	position: absolute;
+	left: 20px;
+	top: 30px;	
+}
+#fotoabajo {
+	position: absolute;
+	left: 20px;
+	top: 30px;	
+	display:none;
+}
+.contenedor2:hover #fotoarriba {
+	display:none;
+}
+
+.contenedor2:hover #fotoabajo {
+	display:block;
+}

@@ -1,0 +1,47 @@
+	.contenedor{   
+	position: absolute;
+	left: 60px;
+	top:20px;
+	margin: 0 auto;
+	}
+
+.texto {
+	position: absolute;
+	left: 20px;
+	top: 30px;	
+	color: #1dacc8;
+	font-weight:blond;
+	text-align:center;
+	font-size:6em;
+	z-index:-1;
+}
+
+.contenedor img:hover {
+  opacity: 0;
+  -webkit-transition: opacity 5000ms;
+  -moz-transition: opacity 5000ms;
+  -o-transition: opacity 5000ms;
+  -ms-transition: opacity 5000ms;
+  transition: opacity 5000ms;
+}
+
+
+figure img {
+	width:100px;
+	height:100px;
+	object-fit: cover;
+}
+.pares img:nth-child(even) {  
+   border-bottom: 6px solid tomato;
+}
+
+.impares img:nth-child(odd) {  
+   border-top: 6px solid tomato;
+} 
+
+.contenedorgaleria{   
+	position: absolute;
+	left: 460px;
+	top: 20px;
+	
+}

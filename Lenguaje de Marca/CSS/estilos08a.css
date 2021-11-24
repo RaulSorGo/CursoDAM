@@ -1,0 +1,19 @@
+html {
+   font-size: 75%;
+   font-family:Verdana, Geneva, Tahoma, sans-serif,sans-serif;
+   background-color: blue;
+   color: white;
+}
+/* El elemento body hereda el color blanco de primer plano y se transmite a todos los hijos de body: en este caso, el título y el párrafo. 
+Éstos no heredan el fondo, pero el fondo se establecerá en el valor por defecto de transparent, de manera que el resultado visual final será texto blanco sobre fondo azul. */
+
+h1 {
+   font-size: 300%;
+   
+}
+/*El porcentaje se aplica al tamaño de fuente heredada (el 75% de la predeterminada por el navegador, que suponemos que es 12 píxeles),
+ de manera que el tamaño del título será el 300% de 12 píxeles, es decir: 36 píxeles.*/
+
+span {
+   background-color:green;
+} 

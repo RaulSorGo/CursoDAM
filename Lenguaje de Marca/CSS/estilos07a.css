@@ -1,0 +1,21 @@
+p::before {
+	content: "PALABRA";
+	color:crimson;
+}
+p {
+	width:500px;
+	text-align:justify;
+	text-indent:25px;
+	font-size: 20px;
+}
+p::first-line { 
+    color: blue;
+}
+p::first-letter { 
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    color: red;
+}
+.ultpal {
+	color:orange;
+}

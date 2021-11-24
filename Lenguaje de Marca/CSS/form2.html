@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la página</title>
+</head>
+<body>
+    <form action="destino.html" method="post">
+        <fieldset>
+          <legend>Por favor, complete estas opciones</legend>
+          <DIV>
+            <label for="fecha">Elija una fecha</LABEL>
+            <input type="date" id="fecha" name="fecha">  
+          </DIV>
+         <DIV><label for="fichero">Elija un fichero</LABEL>
+          <input type="file" id="fichero" name="fichero"> 
+         </DIV> 
+        <DIV>Tipos de ficheros
+            <input type='checkbox' name='formatojpg'> JPG 
+            <input type='checkbox' name='formatopng'> PNG 
+        </DIV>
+          
+         <DIV><label for="color">Elija un color</LABEL>
+          <input type="color" id="color" name="color">
+         </DIV>  
+         <DIV><label for="instituto">Escriba el nombre del Instituo</LABEL>
+          <input type='text' id="instituto" name='instituto'>
+         </DIV> 
+          <DIV><label for="estudios">Escriba sus estudios finales</LABEL>
+            <input type='text' id="estudios" name='estudios'>
+          </DIV>
+          
+          <DIV>
+            <textarea rows='4' cols='60' placeholder="Puede extenderse en explicaciones"></textarea> 
+          </DIV> 
+          <DIV><label for="hora">Escriba la hora del suceso</LABEL>
+          <input type="time" id="hora" name="hora">  
+          </DIV>
+          <DIV>
+            <select name='hardware' multiple title="Escoja el hardware adicional (opción múltiple)">
+              <option value='tarjeta_aceleradora'>Tarjeta aceleradora</option>
+              <option value='monitor_led'>Monitor LED</option>
+              <option value='ssd'>SSD</option>
+              <option value='tarjeta_red'>Red</option>
+            </select>
+          </DIV>
+          <hr>
+          <DIV>
+            <input type="submit">
+            <input type="reset">
+          </DIV>
+        </fieldset>
+
+        </form>
+</body>
+</html>

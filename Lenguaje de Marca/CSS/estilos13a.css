@@ -1,0 +1,97 @@
+nav { 
+	background-color:#414141;
+	width: 500px;
+}
+
+#menu{
+	/*estilo de nuestra lista*/
+	list-style:none;
+	width:400px;
+	position:relative;
+	display:block;
+	height:36px; 
+
+}
+
+#menu li{
+
+	/*estilo a cada uno de los elementos(li) de nuestro menu*/
+	float:left;/* propiedad importante para que nuestro menu 
+	tome la forma horizontal*/
+	
+	display:block;
+	position:relative;
+	}
+	#menu li a{
+
+		/*estilo de los enlaces */
+		color:white; /*prueba un momento con red*/
+		text-decoration:none;
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:14px;
+		line-height:1.3em;
+		padding:10px 14px 8px 16px;
+		display:block;
+		}
+#menu li ul{
+
+		/*estilo de los submenus*/
+		width: 120px;
+		background:#F8F8F8;
+		border:1px #ccc solid;
+		display:none; /*importante para quelos submenus 
+		no estén visibles, se verá que yani ocupan sitio
+		 ni aparece puntero*/
+		position:absolute;
+		z-index:999;
+		margin-top:0px;
+		padding-left:0;
+		}
+	#menu li ul li{
+
+	/*estilo a cada uno de lelementos(li) de nuestsubmenu*/
+	width:100%;
+	list-style:none;
+	display:block;
+	}
+	#menu li ul li a {
+		/*estilo a cada uno de lenlaces de nuestro submenu*/
+		color:#21759b;
+		font-size:14px;
+		line-height:1.3em;
+		display:block;
+		font-weight:normal;
+		padding:8px;
+		
+		}
+		#menu li:hover ul{
+
+			/*con este selector definimos que cuando el cursor 
+			este sobre un elemento(li) que contenga un elemento(ul) 
+			dentro le asigne la propiedad display:block; para 
+			que este a su vez pase de invisible a visible*/
+			display:block;
+			}
+			
+		#menu li a:hover {
+			font-weight: bold;
+		}
+
+			#menu li ul li a:hover{
+			
+			/*un poco de decoración a los enlaces de nuestro submenu 
+			al estar el cursor sobre ellos con ayuda del
+			 selector :hover */
+			background-color:#FFF;
+			color:#444;
+			text-decoration:underline;
+			background-image:url("imagenes/exclama.jpg");
+			background-repeat: no-repeat;
+			}
+
+
+
+
+
+
+

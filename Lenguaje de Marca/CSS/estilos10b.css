@@ -1,0 +1,8 @@
+p {
+    width: 100px;
+	background:url("imagenes/exclama.jpg") repeat-y top right, 
+	           url("imagenes/ok.jpg") repeat-x top left;
+	margin:2px;
+    padding:8px;
+	padding-left:20px;
+}

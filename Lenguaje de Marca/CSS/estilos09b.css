@@ -1,0 +1,32 @@
+h3 {
+	font-size:3em;
+	text-align:center;
+	margin: 50px;
+	border:2px solid red;
+}
+
+/*añade una sombra gris oscuro (#333) un poco a la derecha (0.1em) y abajo (0.1em) en relación con el texto normal.*/
+h3.a {
+	text-shadow: 0.1em 0.1em 1em #333;
+}
+/* siguiendo el mismo esquema...*/	
+h3.b {
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+h3.c {
+	color: white; 
+	background-color:pink;
+	text-shadow:  0.1em 0.1em 0.2em black;
+}
+
+/* También es posible poner más de una sombra */
+h3.d {
+	text-shadow: 0.2em 0.5em 0.1em #600,
+	  -0.3em 0.1em 0.1em #060,
+	  0.4em -0.3em 0.1em #006;
+}
+h3.e {
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+}
+	  

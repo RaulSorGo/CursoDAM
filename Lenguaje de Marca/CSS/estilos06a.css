@@ -1,0 +1,37 @@
+:lang(eng) {
+	font-style:italic;
+	color:red;
+}
+
+div p:first-child { /* el primer dentro de un div */
+	font-size:20px;
+	font-style:italic; /* cursiva */ 
+}
+a:link {
+	text-decoration-color:orange; /* para dar formato a los enlaces no visitados */
+}
+a:visited {
+	text-decoration-color:black; /* para dar formato a los enlaces no visitados */
+	color:black;
+}
+a:hover{
+text-decoration:none;
+}
+a:active{
+font-weight:bolder;
+}
+
+:focus { /* para cualquier elemento con el foco */
+	background: pink;
+	width:400px;
+	
+}
+
+p:focus {
+	margin-left:100px;
+}
+
+/* o de forma particular
+input:focus {
+background: pink;
+} */

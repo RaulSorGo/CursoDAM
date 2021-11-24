@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<HEAD>
+    <META charset="UTF-8">
+    <META name="viewport" content="width=device-width, initial-scale=1.0">
+    <TITLE>Título de la página</TITLE>
+</HEAD>
+<BODY>
+    <H1>Diferencias entre <CODE>type="checkbox"</CODE> y <CODE>type="radio"</CODE></H1>
+    <FORM action="destino.html" method="get">
+        <DIV><H2><CODE>type="checkbox"</CODE></H2>
+            Se usa en cada <CODE>INPUT</CODE> un <CODE>name distinto</CODE> porque hay que enviar todas las variables marcadas.
+            <P>¿Cuáles estos formatos usas más?</P>
+            <LABEL for="formatojpg">JPG</LABEL>
+            <INPUT type='checkbox' id="formatojpg" name='formatojpg'>
+            <LABEL for="formatopng">PNG</LABEL>
+            <INPUT type='checkbox' id="formatopng" name='formatopng'>
+            <LABEL for="formatogif">GIF</LABEL>
+            <INPUT type='checkbox' id="formatogif" name='formatogif'> 
+        </DIV>
+        <DIV><H2><CODE>type="radio"</CODE></H2>
+            Se usa en cada <CODE>INPUT</CODE> el mismo <CODE>name</CODE> porque sólo hay que enviar una, la que se marque.
+            <P>¿Cuál es tu formato favorito?</P>
+            <LABEL for="formatojpg2">JPG</LABEL>
+            <INPUT  type='radio' id="formatojpg2" name='formato' value='formatojpg'>
+            <LABEL for="formatopng2">PNG</LABEL>
+            <INPUT type='radio' id="formatopng2" name='formato' value='formatopng'>
+            <LABEL for="formatogif2">GIF</LABEL>
+            <INPUT type='radio' id="formatogif2" name='formato' value='formatogif'> 
+        </DIV>
+        <INPUT type="submit">
+        <INPUT type="reset">
+    </FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,65 @@
+img {
+	width:100px;
+	height:100px;
+}
+.primero img:first-child {
+	border-left:6px solid tomato;
+}
+.pares img:nth-child(even) {  
+   border-bottom: 6px solid tomato;
+}
+
+.impares img:nth-child(odd) {  
+   border-top: 6px solid tomato;
+} 
+
+.ultimo img:last-child {  
+   border-right: 6px solid tomato;
+}
+
+ol li:nth-child(5)   {  
+   background-color: #CCC;
+   width:100px;
+}
+
+ol li:nth-child(7)   {  
+	background-color: #CCC;
+	width:100px;
+ }
+/* alternativa a escoger el primer elemento */
+.primero img:first-of-type {
+		border-left:6px solid chocolate;
+}
+
+
+ol li:nth-child(even) {
+	color:red;
+}
+
+div {
+	width:20px;
+	height:20px;
+	margin:2px;
+}
+.cajaroja {
+	background-color: red;
+}
+div:not(.cajaroja) {
+	background-color: green;
+}
+
+h2:target {
+	background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+

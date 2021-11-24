@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<HTML><HEAD>
+<STYLE>/*
+div { padding-bottom:3px;}
+
+#a { 
+	width:200px;
+	position:absolute;
+	top:40px;
+	left:520px;
+}
+#b { 
+	width:200px;
+	position:absolute;
+	top:200px;
+	left:120px;
+}
+*/
+</STYLE>
+<TITLE>Formularios 3</TITLE>
+</HEAD>
+<BODY>
+<form id="a" action="paginadestino.php" method="get" target="_blank">
+	<DIV>Usuario <input type="text" name="usuario"></DIV>
+	<DIV>Contraseña<input type="password" name="pass"></DIV>
+
+	<DIV><input type="image" name="botondeenvio"
+	src="imagenes/botonmolon.jpg"   alt="Enviar formulario" onclick="alert('Cualquier día es bueno para empezar.')"></DIV>
+	<DIV><BUTTON type="button" onclick="alert('Cualquier día es bueno para empezar.')">
+	Un botón para cosas diversas</BUTTON></DIV>  
+</form>
+
+<form id="b" action="procesando.php"  name="form" method="post" enctype="multipart/form-data">
+	<p>Seleccionar archivo</p>
+	<p>	<input type="file" multiple id="archivo" size="40"></p>
+	<p>	<input type="submit" value="Subir archivo"></p>
+</form>
+
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+

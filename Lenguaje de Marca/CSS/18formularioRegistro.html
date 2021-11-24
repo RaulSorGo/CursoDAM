@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Extra formularios</title>
+</head>
+<body>
+    <H1>Ejemplo de formulario</H1>
+    <H2>REGISTRO</H2>
+ 
+        <FORM  action="acceso.html" method="post" autocomplete > 
+            <DIV title="Escriba su nombre de usuario, máximo 15 caracteres"> 
+              <label for="usuario">Nombre de usuario</LABEL>
+              <input type="text" id="usuario" maxlength="15" name="usuario" required placeholder="p.e. Casimiro">
+            </DIV>
+            <DIV>
+              <LABEL for="correo"> Correo electrónico </LABEL>
+              <INPUT type="email" id="correo" name="correo" required  placeholder="p.e. ejemplo@empresa.com"/> 
+            </DIV>
+            <DIV title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres">
+              <LABEL for="clave1" >Escribe la clave</LABEL>
+              <INPUT id="clave1" name="clave1" required type="password" placeholder="Por ejemplo, X8df!90EO" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" > 
+            </DIV>
+            <DIV title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres">
+                <LABEL for="clave2" >Escribe la clave otra vez</LABEL>
+                <INPUT id="clave2" name="clave2" required type="password" placeholder="Debe coincidir con la anterior" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" > 
+            </DIV>
+            <DIV> 
+              <INPUT type="submit" value="Registro"> 
+            </DIV>
+            <DIV>Si ya eres miembro
+              <a href="18formularioLogin.html" target="_blank"> ¡loguéate! </a>
+            </DIV>
+        </FORM>
+</body>
+</html>

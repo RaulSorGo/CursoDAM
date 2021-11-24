@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<HTML><HEAD>
+	<META charset="utf-8">
+<STYLE>
+	/*label {
+		display:block;
+	}*/
+</STYLE>
+<TITLE>Formulario 1 </TITLE>
+</HEAD>
+<BODY>
+<form action="html5formularios.html" method="post">
+	<label for="nombre" title="Introduce tu nombre">
+	Cuál es tu nombre</LABEL>
+	<input id="nombre" name="nombre" type="text" 
+	placeholder="Introduzca texto"
+	autocomplete accesskey="1" maxlength="10">
+
+	<label for="apellidos">Apellidos</LABEL>
+	<input id="apellidos" name="apellidos" type="text"
+	placeholder="p.e. López Castejón"
+	 accesskey="2" required autofocus>
+
+	<label for="ciudad">Ciudad</LABEL>	
+	<input id="ciudad" type="text" name="ciudad"
+	 value="Sevilla" readonly>
+	<label for="usuario">Usuario</LABEL>	
+	<input id="usuario"
+	 type="text" minlength="5" placeholder="p.e. carmen" pattern="^[^0-9]+$">
+	 <label for="patron">Patrón</LABEL>	
+	 <input id="patron" type="text"
+	 pattern="^[^0-9]+$" required>
+	 <!-- permite introducir un nombre sin números -->
+	 <label for="clave">Palabra de paso</LABEL>
+	 <input id="clave" type="password" name="clave"
+	 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debería contener 8 o más
+	 caracteres con al menos un número, una mayúscula
+	 y una letra minúscula">
+
+
+<DIV>
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Borrar">
+</DIV>
+</form>
+
+
+<a href="https://www.w3schools.com/tags/tag_input.asp">https://www.w3schools.com/tags/tag_input.asp</a>
+<hr>
+<form action="html5formularios2.html" method="post">
+	<p><label for="correo">Correo Electrónico </LABEL>
+		<input type="email" id="correo" name="correo" required>
+	</p>
+	<p>URL <input type="url"
+		id="Web" name="url"
+		value="https://"
+		size="40">
+	</p>
+	<p>Fecha <input type="date" id="fecha"></p>
+	<p>Hora <input type="time" id="tiempo"></p>
+	<p>Fecha y hora de nacimiento <input type="datetime"
+	 id="fechanac"></p>
+	<p>Mes <input type="month" id="mes"></p>
+	<p>Semana <input type="week" id="semana"></p>
+	<p>Número (entre -10 y 10) <input type="number"
+		id="numero" min="-10" value="0"></p>
+	<p>Intervalo (min 0, max 10) <input type="range" id="rango" min="0" max="10" value="0"></p>
+	<p>Teléfono: <input type="tel" id="tel"></p>
+	<p>Término de búsqueda <input type="search"
+	id="busqueda"></p>
+	<p>Color Favorito <input type="color" id="color"></p>
+	<input type="submit" value="¡DALE!">
+	<input type="reset" value="BORRAR">
+</form>
+
+</BODY>
+</HTML>
+
+
+
+

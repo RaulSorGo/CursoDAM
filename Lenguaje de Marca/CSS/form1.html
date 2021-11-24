@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la página</title>
+</head>
+<body>
+      <form action="destino.html" method="post">
+        <fieldset>
+          <legend>Por favor, complete estas opciones</legend>
+        <DIV>
+            <label for="escritorio">Selecciona escritorio</LABEL>
+            <select id="escritorio" name='escritorio' autofocus>
+              <option value='kde'>KDE</option>
+              <option value='gnome'>GNOME</option>
+              <option value='unity'>Unity</option>
+            </select>
+        </DIV>
+          <DIV><label for="obs">Observaciones</LABEL>
+          <DIV>
+            <textarea id="obs" name="obs" rows='5' cols='45'>Observaciones</textarea>
+          </DIV>
+          </DIV>
+          <DIV>
+            <label for='color'>Elija un color</LABEL>
+            <input type="color" id="color" name="color" required> 
+          </DIV>
+          <DIV><label for="hora">Elija una hora</LABEL>
+            <input type="time" id="hora" name="hora">  
+          </DIV>
+        </fieldset>
+        <DIV>Escoge un navegador de la lista:
+          <input list="navegadores" name="navegador" placeholder="escribe">
+          <datalist id="navegadores">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Internet Explorer">
+            <option value="Opera">
+            <option value="Safari">
+            <option value="Microsoft Edge">
+          </datalist>
+        </DIV> 
+          <DIV>
+            <input type="submit">
+            <input type="reset"> 
+          </DIV>               
+      </form>
+
+</body>
+</html>

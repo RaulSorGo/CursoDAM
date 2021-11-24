@@ -1,0 +1,58 @@
+div {
+	width:100px;
+	height:100px;
+	margin:10px;
+}
+.caja1 {
+	border:2px solid red;
+	display:inline; /*convertir a block o quitar */
+}
+.caja2 {
+	border-right:2px solid red;
+	padding-right:60px;
+}
+.caja3 {
+	border-bottom:2px solid red;
+	border-right:2px solid red;
+	display:inline-block;
+}
+.caja4 {
+	/*border-left:2px solid red;*/
+	border-left-color:red;
+	border-left-style: dashed;
+	border-left-width:2px;	
+	display:inline-block;
+	padding-left:5px;
+	border-right-color:red;
+	border-right-style: dotted;
+	border-right-width: 20px;
+}
+.caja5 {
+	background:green;
+	/*border: 2px solid;*/
+    border-radius: 25px 12px 34px 6px;
+	padding:20px 0 0 5px;
+	
+
+}
+.caja6 {
+	background-image: url("imagenes/malpica2.jpg");
+	background-color:pink;
+    background-repeat: no-repeat;
+ 	background-size:cover; 
+	background-position: 4% 7%; 
+	border-radius: 25px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<HTML><HEAD>
+	<META charset="utf-8">
+<STYLE>
+/*
+.especial {
+	width:140px;
+	color:chocolate;
+	background-color:pink;
+    border-radius: 10px;
+ }
+ .especial:hover { border:2px solid red;}
+ */
+</STYLE>
+<TITLE>Formularios 2</TITLE>
+</HEAD>
+<BODY>
+<form action="html5formularios2.html" method="post">
+	
+		<label for="comentarios"><h3>Textarea</h3></LABEL>
+		<textarea id="comentarios" maxlength="100"
+		placeholder="Cuéntame tu vida..."></textarea>
+	<h3>Botones radio excluyentes</h3>
+		<input type="radio" name="género" value="hombre">Hombre
+		<input type="radio" id="mujer" name="género" value="mujer"><label for="mujer">Mujer</LABEL>
+		<input type="radio" id="noiden" name="género" value="No identificado"><label for="noiden">No identificado</LABEL>
+	<h3>select</h3>
+		<label for="coches">Marcas</LABEL>
+		<select id="coches"> <!---probar quitando multiple-->
+			<option value="vo">Volvo</option>
+			<option value="sa" disabled>Saab</option>
+			<option value="fi">Fiat</option>
+			<option value="au">Audi</option>
+		</select>
+	<h3>Caja de opciones</h3>
+		<input type="checkbox" id="vehículo1"
+		value="Bicicleta" checked name="bicicleta"><label for="vehículo1">Tengo bicicleta</LABEL>
+		<input type="checkbox" id="vehículo2" name="coche"
+		value="Coche"> Tengo coche
+	<HR>
+	<h3>BOTONES</h3>
+		<input type="submit" value="¡DALE!">
+		<input type="reset" value="¡BORRAR!"><br>
+		<input class="especial" type="submit" value="BUSCAR">
+</form>
+</BODY>
+</HTML>

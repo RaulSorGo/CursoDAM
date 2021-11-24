@@ -1,0 +1,25 @@
+.contenedor{   
+	position: absolute;
+	left: 60px;
+	top:20px;
+	margin: 0 auto;
+	width: 400px;
+	height:400px;
+	background-image: url(imagenes/fotoplaya.png);
+	background-size: cover;
+	border:2px solid red;
+	}
+
+.texto {
+	position: absolute;
+	left: 20px;
+	top: 30px;	
+	color: #1dacc8;
+	font-weight:blond;
+	text-align:center;
+	font-size:6em;
+	z-index:-1;
+}
+.contenedor:hover .texto {
+	z-index:1;     
+}

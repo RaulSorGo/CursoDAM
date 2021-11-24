@@ -1,0 +1,38 @@
+.texto {
+	position: absolute;
+	left: 20px;
+	top: 30px;	
+	color: #1dacc8;
+	font-weight:blond;
+	text-align:center;
+	font-size:6em;
+	z-index:-1;
+}
+
+figure img {
+	width:100px;
+	height:100px;
+}
+.contenedorgaleria{   
+	position: absolute;
+	left: 460px;
+	top: 20px;
+	margin: 0 auto;
+}
+
+#oculta1, #oculta2, #oculta3, #oculta4, #oculta5, #oculta6 {
+	position: absolute;
+	left: -400px;
+	top: 20px;
+	width:400px;
+	height:400px;
+	visibility:hidden;
+}
+#peque1:hover, #peque2:hover, #peque3:hover , #peque4:hover , #peque5:hover , #peque6:hover  {
+	opacity:.5;
+	border: 2px solid red;
+}
+.contenedorgaleria a#e1:hover #oculta1, .contenedorgaleria a#e2:hover #oculta2, .contenedorgaleria a#e3:hover #oculta3, 
+.contenedorgaleria a#e4:hover #oculta4, .contenedorgaleria a#e5:hover #oculta5, .contenedorgaleria a#e6:hover #oculta6{
+	visibility:visible;
+}

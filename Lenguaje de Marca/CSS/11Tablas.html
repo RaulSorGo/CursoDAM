@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>/*
+        table, th, td {
+            border:2px red solid;
+            border-collapse: collapse; /*collapse : //Utiliza el modo de presentación de fusión de borde
+        } */
+        table img {
+            width:30px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <img src="imagenes/logo.jpg">
+    <p>Tabla de asignaciones</p>
+    <TABLE>
+        <caption>Tabla de asignaciones</caption>
+        <TR>
+          <TH>Origen</TH>
+          <TH>Destino</TH>
+          <TH>Compañía</TH>
+        </TR>
+        <TR>
+          <TD>Málaga</TD>
+          <TD>Madrid</TD>
+          <TD>ALSA</TD>
+        </TR> 
+        <TR>
+          <TD>Cádiz</TD>
+          <TD>Almería</TD>
+          <TD>GadirBUS</TD>
+        </TR> 
+        <TR>
+            <TD rowspan="2">Sevilla</TD>
+            <TD>Málaga</TD>
+            <TD>ALSA</TD>
+        </TR>
+        <TR>
+            <TD>Málaga</TD>
+            <TD>ALSA</TD>
+        </TR>
+        <TR>
+            <TD colspan="2">Todos los autobuses equipados con WIFI</TD>
+            <TD><img src="imagenes/logo.jpg"></TD>
+        </TR>
+    </TABLE>
+                  
+</body>
+</html>

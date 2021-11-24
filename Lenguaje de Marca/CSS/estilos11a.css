@@ -1,0 +1,38 @@
+
+div {
+    border: 2px solid #CCC;
+    padding: 1em;
+    margin: 1em 0 1em 4em;
+    width: 400px;
+    height: 100px;
+    text-align:center;
+ }
+
+#fotorelativa {
+    position:relative;
+    left:200px;
+    bottom:20px;
+    
+}
+
+#fotoabsoluta {
+    position: absolute;
+    top:  450px; 
+    left: 50px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+div img:nth-of-type(2) {
+  width: 100px;
+  height: 100px;
+}
+
+
+.fotofija {
+      position:fixed;
+    bottom:50%;
+      left:40%;
+      border:orange 5px dotted;
+      opacity:0.8;
+  } 

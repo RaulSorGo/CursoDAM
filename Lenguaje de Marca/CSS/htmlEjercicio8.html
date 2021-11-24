@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<HEAD>
+    <META charset="utf-8">
+    <TITLE>HTML</TITLE>
+</HEAD>
+<BODY>
+    <H1>Formulario de registro</H1>
+    <FORM action="" method="get">
+    <P>
+    <LABEL for="nombre">Nombre:</LABEL> <INPUT type="text" name="nombre" id="nombre" maxlength="50">
+    </P>  
+    <P>
+    <LABEL for="apellidos">Apellidos:</LABEL> <INPUT type="text" name="apellidos" id="apellidos" maxlength="50">
+    </P>    
+    <P>
+    Sexo: <INPUT type="radio" name="sexo" id="sexo-h" value="h"> <LABEL for="sexo-h">hombre</LABEL> <INPUT type="radio" name="sexo" id="sexo-m" value="m"> <LABEL for="sexo-m">mujer</LABEL>
+    </P>    
+    <P>
+    <LABEL for="correo">Correo:</LABEL> <INPUT type="mail" name="correo" id="correo" maxlength="100">
+    </P>    
+    <P>
+    <LABEL for="poblacion">Población:</LABEL>
+    <select name="poblacion" id="poblacion">
+        <option>Alicante</option>
+        <option>Madrid</option>
+        <option>Sevilla</option>
+        <option>Valencia</option>
+    </select> 
+    </P>
+    
+    <P><LABEL for="descripcion">Descripción:</LABEL>
+    <textarea name="descripcion" id="descripcion" rows="6" cols="60"></textarea>
+    </P>
+    
+    <P>
+    <INPUT type="checkbox" name="info" id="info" checked="checked"> <LABEL for="info">Deseo recibir información sobre novedades y ofertas</LABEL>
+    </P>
+    
+    <P>
+    <INPUT type="checkbox" name="condiciones" id="condiciones"> <LABEL for="condiciones"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</LABEL>
+    </P>
+    
+    <P>
+    <INPUT type="submit" value="Enviar">
+    </P>
+    </FORM>
+    
+  
+</BODY>
+</HTML>

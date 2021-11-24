@@ -1,0 +1,13 @@
+ul.ok {
+    list-style-image: url("imagenes/ok.jpg");
+}
+ul.asterisco {
+    list-style-image: url("imagenes/asterisco.png");
+}
+ul.vistobueno {
+    list-style-image: url("imagenes/vistobueno.png");
+}
+ul.iconoexterno {
+    list-style-image: url("https://mdn.mozillademos.org/files/11979/starsolid.gif");
+    list-style-position: inside ;
+}

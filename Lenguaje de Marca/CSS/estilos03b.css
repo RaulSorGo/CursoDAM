@@ -1,0 +1,13 @@
+h1 {
+	color: red;
+	letter-spacing: 25px ;
+	text-align:center;
+}
+
+footer {
+	color:white;
+	background-color:black;
+}
+address {
+	color:skyblue !important;
+} 
