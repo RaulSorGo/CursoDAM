@@ -26,7 +26,7 @@ def leer_valores(persona):
         survivors.append(persona['Survived'])  
     return survivors 
 
-
+ 
 # 3- contar (0=muerto, 1=vivo)
 def contar_vivos_muertos():
     vivo = 0
