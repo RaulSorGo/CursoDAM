@@ -24,7 +24,7 @@ def genera_equipos(alumnos):
         eq.append(personas.pop())
         equipos.append(eq)
     
-    if len(personas) > 0:
+    if len(personas) > 0:  
         equipos[num_equipos - 1].append(personas.pop())
 
     return equipos
