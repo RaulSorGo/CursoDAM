@@ -1,5 +1,4 @@
 {
-    "workbench.colorCustomizations": {},
     "python.testing.unittestArgs": [
         "-v",
         "-s",
