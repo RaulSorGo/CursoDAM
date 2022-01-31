@@ -4,4 +4,3 @@ C.Falso
 D.Verdadero
 E.Verdadero
 F.Falso
-
