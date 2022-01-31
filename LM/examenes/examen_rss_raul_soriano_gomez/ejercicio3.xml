@@ -1,0 +1,36 @@
+<!--Este es el fragmento inicial de codigo, a continuacion dejo mi version validada en la w3org-->
+
+
+<!--
+<item>
+<title>La clase del jueves</title>
+<link>https://misentradasymispaginas.wordpress.com/2021/04/21/orientemedioyelcovid/</link>
+<description>No por mucho madrugar amanece más temprano dormilón.</description>
+</item>
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Wordpress</title>
+        <link>https://wordpress.com/</link>
+        <description>¡Crea Fácilmente Sitio Web con Plantillas Increíbles y Difunde Tus Ideas Online! Escoge el Software Presente en un 37% de Internet. ¡Empieza a Diseñar Tu Sitio!</description>
+        <language>es</language>
+        <item>
+            <title>La clase del jueves</title>
+            <link>https://misentradasymispaginas.wordpress.com/2021/04/21/orientemedioyelcovid/</link>
+            <description>No por mucho madrugar amanece más temprano dormilón.</description>
+        </item>
+    </channel>
+</rss>
+
+
+<!--Las etiquetas que faltaban para que el codigo original estuviera bien eran:
+La declaracion XML (<?xml version="1.0" encoding="UTF-8"?> <rss version="2.0">)
+La etiqueta <channel> 
+La etiqueta <title>
+La etiqueta <link>
+Y aunque no eran completamente necesarias, he añadido las etiquetas <description> y <language> para completar el codigo 
+-->

@@ -1,0 +1,41 @@
+<!-- Diario de Sevilla -->
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Diario de Sevilla - Home</title>
+        <link>https://www.diariodesevilla.es/</link>
+        <description>Diario de Sevilla</description>
+        <language>es</language>
+        <item>
+        <title>Coronavirus Sevilla: Los contagios bajan del millar pero repuntan los hospitalizados</title>
+        <link>https://www.diariodesevilla.es/sevilla/coronavirus-sevilla-18-enero-2022_0_1648636337.html </link>
+        <description>
+        Avance informativo.
+        Los hospitales alcanzan su cifra de ingresos más alta de la sexta ola con 430 pacientes</description>  
+        </item>
+    </channel>
+</rss>
+
+
+<!--El codigo de arriba es mi correción del ejercicio, continuacion dejo el codigo original con los comentarios de las correciones-->
+
+<!--
+    <!-- Diario de Sevilla -->
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version=2.0>                             Aqui faltaban las comillas a la hora de especificar la version de las rss
+<channel>
+    <title>Diario de Sevilla - Home</title>
+    <link/>https://www.diariodesevilla.es/          Aqui faltaba cerrar la etiqueta <link>
+    <description>Diario de Sevilla</description>
+    <language>es</lenguaje>                          Aqui la etiqueta </language> tenia faltas de ortografia
+    <item>
+        <title>Coronavirus Sevilla: Los contagios bajan del millar pero repuntan los hospitalizados</title>
+        <link>https://www.diariodesevilla.es/sevilla/coronavirus-sevilla-18-enero-2022_0_1648636337.html </link>
+        Avance informativo.
+        <description>
+        Los hospitales alcanzan su cifra de ingresos más alta de la sexta ola con 430 pacientes</description>
+    <item>          ESTA ETIQUETA <item> NO SE CIERRA NI CONTIENE NADA, POR LO QUE LE HE ELIMINADO EN LA CORRECCION
+    </item>
+</channel>
+</RSS>              Por temas esteticos he corregido esta etiqueta poniendola en minusculas
+-->

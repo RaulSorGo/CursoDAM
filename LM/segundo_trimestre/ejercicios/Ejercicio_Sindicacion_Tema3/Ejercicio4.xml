@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>vertical-garden-design</title>
+    <link>https://www.verticalgardendesign.com</link>
+    <description>Es una pagina sobre plantas</description>
+    <item>
+        <title>vertical-garden</title>
+        <link>https://www.verticalgardendesign.com/products/vertical-garden</link>
+        <description>Instalación y mantenimiento de las plantas.</description>
+ 
+    </item>
+    <item>
+        <title>pinnacle</title>
+        <description>Es una escultura de plantas y un jardín vertical independiente con plantas en todos los lados.</description>
+        <link>https://www.verticalgardendesign.com/products/pinnacle</link>
+    </item>
+     
+     <item>
+        <title>Canopy</title>
+        <description>Es un jardín suspendido para hacer techos vegetales. Las plantas en cascada cuelgan varios metros y se riegan automáticamente. </description>
+        <link>https://www.verticalgardendesign.com/products/canopy</link>
+    </item>
+</channel>
+</rss>
