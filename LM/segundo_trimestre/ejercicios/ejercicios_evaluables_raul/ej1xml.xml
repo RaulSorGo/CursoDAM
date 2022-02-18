@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE biblioteca SYSTEM "C:\Users\Mañana\Desktop\cursoDAM\CursoDAM\LM\segundo_trimestre\ejercicios\ejercicios_evaluables_raul\ej1DTD.dtd">
+<biblioteca>
+	<libro codigo="V96542" titulo="Insurgente">
+		<autor>Veronica Roth</autor>
+		<foto imagen="img1"/>
+		<editorial>Molino</editorial>
+		<edicion>2016</edicion>
+		<isbn>9788416334377</isbn>
+		<donacion/>
+		<ubicacion sede="norte"/>
+	</libro>
+	<libro codigo="M71694" titulo="Divergente">
+		<autor>Veronica Roth</autor>
+		<foto imagen="img2"/>
+		<editorial>Planeta</editorial>
+		<edicion>2015</edicion>
+		<isbn>978-84-415-3547-3</isbn>
+		<ubicacion sede="sur"/>
+	</libro>
+</biblioteca>

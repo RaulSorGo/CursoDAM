@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT foto EMPTY>
+<!ATTLIST foto
+	imagen (img1 | img2) #REQUIRED
+>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT libro (autor+, foto, editorial, edicion, isbn, donacion?, ubicacion)>
+<!ATTLIST libro
+	codigo (M71694 | V96542) #REQUIRED
+	titulo CDATA #REQUIRED
+>
+<!ELEMENT edicion (#PCDATA)>
+<!ELEMENT donacion EMPTY>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT ubicacion EMPTY>
+<!ATTLIST ubicacion
+	sede (centro | norte | sur) #REQUIRED
+>
+<!ELEMENT biblioteca (libro+)>
+
+<!--Soy consciente de que no empleo las definiciones ENTITY y NOTATION, 
+pero no fui capaz de obtener una version valida que incluyera estos operadores.
+Agradeceria mucho un ejemplo de solucion valida y sigo trabajando para obtener una version mejor
+pero a dia de hoy no lo he conseguido-->
+

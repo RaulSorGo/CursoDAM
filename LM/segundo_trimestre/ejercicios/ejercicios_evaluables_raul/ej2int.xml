@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE matricula [
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT pago (tipo_matricula)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT personal (dni, nombre, titulacion, curso_academico, domicilios)>
+<!ELEMENT domicilio (nombre)>
+<!ATTLIST domicilio
+	tipo (familiar | habitual) #REQUIRED
+>
+<!ELEMENT matricula (personal, pago)>
+<!ELEMENT domicilios (domicilio+)>
+<!ELEMENT titulacion (#PCDATA)>
+<!ELEMENT tipo_matricula (#PCDATA)>
+<!ELEMENT curso_academico (#PCDATA)>
+]>
+<matricula>
+	<personal>
+		<dni>99223366M</dni>
+		<nombre>Juan Pardo Martín</nombre>
+		<titulacion>Ingeniería Informática</titulacion>
+		<curso_academico>1997/1998</curso_academico>
+		<domicilios>
+			<domicilio tipo="familiar">
+				<nombre>C/ Principal no1</nombre>
+			</domicilio>
+			<domicilio tipo="habitual">
+				<nombre>C/ Secundaria no2</nombre>
+			</domicilio>
+		</domicilios>
+	</personal>
+	<pago>
+		<tipo_matricula>Matrícula Ordinaria</tipo_matricula>
+	</pago>
+</matricula>

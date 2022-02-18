@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT pago (tipo_matricula)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT personal (dni, nombre, titulacion, curso_academico, domicilios)>
+<!ELEMENT domicilio (nombre)>
+<!ATTLIST domicilio
+	tipo (familiar | habitual) #REQUIRED
+>
+<!ELEMENT matricula (personal, pago)>
+<!ELEMENT domicilios (domicilio+)>
+<!ELEMENT titulacion (#PCDATA)>
+<!ELEMENT tipo_matricula (#PCDATA)>
+<!ELEMENT curso_academico (#PCDATA)>
