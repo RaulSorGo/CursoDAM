@@ -8,16 +8,20 @@ También debe contar cuantas hay en cada una de ellas
 def introduce_letra():
     vocales = []
     consonantes = []
-    cad = input('Intrduzca todos los caracteres que desee: ')
+    papelera = []
+    cad = input('Introduzca todos los caracteres que desee: ')
 
     for letra in cad:
-        if letra in 'aeiou':
+        if letra in 'aeiouAEIUO':
             vocales.append(letra)
-            print(vocales)
-            print(len(vocales))
-        else:
+
+        elif letra in 'qwrtypsdfghjklñzxcvbnmQWRTYPSDFGHJKLÑZXCVBNM':
             consonantes.append(letra)
-            print(consonantes)
-            print(len(consonantes))
+        else:
+            papelera.append(letra)
+    print(consonantes)
+    print(len(consonantes))
+    print(vocales)
+    print(len(vocales))
 
 introduce_letra()
